@@ -1,0 +1,17 @@
+on post-fs
+    chown system system /dev/isdbt
+    chmod 0660 /dev/isdbt
+
+on post-fs-data
+    mkdir /data/one-seg 0775 system system
+    chown system system /data/one-seg
+    chmod 0775 /data/one-seg
+    
+on property:vendor.sbtvd.service.recovery=recovery
+    start mobileTV
+
+service mobileTV /system/bin/broadcastProcessObserver_ltn
+    class main
+    user system
+    group system audio graphics sdcard_rw media media_rw shell
+    oneshot

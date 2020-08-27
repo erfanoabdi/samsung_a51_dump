@@ -1,0 +1,5 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+<resources>
+    <local name="DISPLAY_CUTOUT_ANIMATION_INFO" num-of-display-cutout="1" display-cutout-0-type="0" display-cutout-0-left="162" display-cutout-0-top="2" display-cutout-0-right="198" display-cutout-0-bottom="38"/>
+    <local name="DISPLAY_CUTOUT_POSITION" value="1" />
+</resources>
