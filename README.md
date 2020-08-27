@@ -1,0 +1,13 @@
+# a51nsxx-user 10 QP1A.190711.020 A515FXXU3BTF4 release-keys
+- manufacturer: 
+- platform: universal9611
+- codename: a51
+- flavor: a51nsxx-user
+- release: 10
+- id: QP1A.190711.020
+- incremental: A515FXXU3BTF4
+- tags: release-keys
+- fingerprint: samsung/a51nsxx/a51:10/QP1A.190711.020/A515FXXU3BTF4:user/release-keys
+- brand: samsung
+- branch: a51nsxx-user-10-QP1A.190711.020-A515FXXU3BTF4-release-keys
+- repo: samsung_a51_dump
