@@ -1,0 +1,7 @@
+service sbtvd-hal-service /vendor/bin/hw/vendor.samsung.hardware.sbtvdtuner@2.0-service
+interface vendor.samsung.hardware.sbtvdtuner@2.0::ISehSbtvdTuner default
+    class hal
+    user system
+    group system
+    oneshot
+    disabled
